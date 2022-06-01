@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+color: var(--theme-color);
+font-family: var(--default-font);
+
+}
+
+header{
+    padding: 50px 0px 50px;
+    background-image: url(../images/background-header.png);
+   
+}
+.menu{
+    
+    padding-right: 40px !important;
+    margin-top: -10px; 
+}
+
+
+.motor-cycle {
+
+}
+.motor-cycle p {
+
+margin: 0;
+
+font-weight: 600;
+}
+.motor-cycle img{
+
+margin-right: 60px;
+}
+
+.navbar-nav .nav-link{
+
+font-family: var(--title-font-2);
+
+font-size: 20.83px;
+
+padding-right:0% !important;
+
+padding-left: 55px !important;
+
+color: var(--default-font);
+}
+
+.navbar{
+    z-index: 3;
+}
+
+.banner-content{
+    
+}
+.banner-content h5{
+    font-size: 25px;
+    font-family: var(--title-font-2);
+    border: 2px dashed;
+    padding: 5px 20px 3px;
+    display: inline-block;
+}
+.banner-content h1{
+    font-size: 114px;
+    font-family : var(--title-font);
+    text-transform: uppercase;
+    text-shadow: var(--shadow);
+}
+.banner-content h2{
+    font-size: 55px;
+    font-family: var(--title-font);
+    text-transform: uppercase;
+    text-shadow: var(--shadow);
+    margin-top: -10px;
+}
+.banner-img{
+z-index: 1;
+position: relative;
+} 
+
+.banner-img img{
+    margin-top: -120px;
+}
+
+.discount{
+    bottom: 0%;
+    left: 0%;
+    background-color: var(--red);
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.discount .border{
+    
+height: 100%;
+    
+width: 100%;
+    
+border-radius: 50%;
+    
+border: 2px dashed #fff !important;
+    
+display: flex;
+    
+align-items: center;
+    
+justify-content: center;
+    
+text-align: center;
+}
+
+.discount h3  {
+    text-transform: uppercase;
+
+    color: #fff;
+
+    font-size: 70px;
+
+font-family: var(--title-font-2);
+}
+
+    
+
+.discount h3 strong {
+    
+font-size: 30px;
+}
+
+.discount h3 span{
+    
+display: block;
+    
+font-size: 33px;
+}
+
+.item-section{
+    padding: 80px 0px ;
+}
+
+.item{
+    position: relative;
+}
+
+.item h3{
+    
+font-family: var(--title-font-2);
+    
+font-size: 25px;
+}
+
+.item h2{
+    
+font-family: var(--title-font-2);
+    
+font-size: 41px;
+}
+.item-title{
+    
+position: absolute;
+    
+left: 3%;
+    
+top: 30px;
+    
+color: #fff;
+}
+
+.felx-space-between{
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;    
+}
+
+
+
+
+
+.item-1{
+    position: relative;
+}
+
+.item-1 h3{
+    
+font-family: var(--title-font-2);
+    
+font-size: 25px;
+}
+
+.item-1 h2{
+    
+font-family: var(--title-font-2);
+    
+font-size: 41px;
+}
+.item-title-1{
+    
+position: absolute;
+    
+left: 3%;
+    
+top: 30px;
+    
+color: #fff;
+}
+
+.product-section{
+    padding: 30px 0;
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.heading h4{
+    font-size: 25px;
+    background: #ffc045;
+    display: inline-block;
+    padding: 7px 30px 2px;
+    text-transform: uppercase;
+    font-family: var(--title-font-2);
+    margin-bottom: 30px;
+}
+
+.heading h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: var(--title-font);
+}
+
+.heading p{
+    font-size: 16px;
+    font-family: var(--default-font);
+    width: 81%;
+    margin: auto;
+}
+
+.product{
+    text-align: center;
+}
+
+.product img{
+    min-height: 285px;
+    object-fit: contain;
+}
+
+.product h3{
+    font-size: 37px;
+    font-family: var(--title-font-2);
+}
+
+.product p{
+    font-size: 16px;
+    width: 80%;
+    margin: auto;
+    padding: 15px 0;
+}
+
+.product .btn-1{
+    background: var(--red);
+    color: #fff;
+    border-radius: 0;
+    font-size: 15px;
+    padding: 12px 25px 11px;
+    text-transform: uppercase;
+    font-family: var(--title-font);
+    margin: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+:root{
+   --default-font:'Montserrat', sans-serif;
+   --title-font: 'Alfa Slab One', cursive;
+   --theme-color: #3d2514;
+   --title-font-2:'Bebas Neue', cursive;
+   --shadow :  4px 5px #fff;
+   --red : #bf2222;
+}
